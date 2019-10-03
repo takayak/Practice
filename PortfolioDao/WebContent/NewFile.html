@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<title>MySystem</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+ <div class="container-fluid">
+ <div class="navbar-header">
+ <button type="button" class="navbar-toggle" data-toggle="collapse"
+data-target="#mynavbar">
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+ <a class="navbar-brand" href="#">MySystem</a>
+ </div>
+ <div class="collapse navbar-collapse" id="mynavbar">
+ <ul class="nav navbar-nav">
+ <li><a href="#">会員管理</a></li>
+ <li class="active"><a href="#">商品管理</a></li>
+ </ul>
+ <ul class="nav navbar-nav navbar-right">
+ <li><a href="#">ログアウト</a></li>
+ </ul>
+ </div>
+ </div>
+</nav>
+<div class="container">
+ <h1>商品一覧</h1>
+ <div class="row">
+ <div class="col-md-12">
+ <table class="table table-bordered table-striped table-hover">
+ <tr>
+ <th>メーカー</th><th>商品名</th><th>価格</th>
+ <th>編集</th>
+ </tr>
+ <tr>
+ <td>BILOT</td><td>万年筆</td><td>10,500 円</td>
+ <td><a href="#" class="btn btn-default btn-sm">編集</a></td>
+ </tr>
+ <tr>
+ <td>UNITED</td><td>名刺入れ</td><td>1,260 円</td>
+ <td><a href="#" class="btn btn-default btn-sm">編集</a></td>
+ </tr>
+ <tr>
+ <td>NEVA</td><td>システム手帳</td><td>8,400 円</td>
+ <td><a href="#" class="btn btn-default btn-sm">編集</a></td>
+ </tr>
+ </table>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-12">
+ <a href="additem.html" class="btn btn-primary">商品の追加</a>
+ </div>
+ </div>
+</div>
+<script src="js/jquery-x.x.x.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
